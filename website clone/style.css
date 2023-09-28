@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Noto+Sans+TC:wght@900&family=Nunito+Sans:opsz,wght@6..12,200&family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+.nav-bar{
+    height: 44.2px;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list ul{
+    list-style: none;
+    border: 1px solid blue;
+}
+
+.nav-list ul li{
+    display: inline-flex;
+    align-items: center;
+}
+.nav-list ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+}
+.nav-list ul li a:hover{
+    color: #000000;
+    background: rgba(184, 184, 184,0.7);
+}
+
+.back{
+    background: red;
+    height: 100vh;
+}
+
+.nav-list ul li a i{
+    font-size: 13px;
+}
+
+.nav-search{ 
+    color: #ffffff;
+    height: 44.22px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.dropdown1 {
+    position: absolute;
+    top: 44px;
+    background: #ffffff;
+}
+.dropdown1 ul{
+    display: none;
+}
+
+.dropdown{
+    position: relative;
+}
+.nav-list ul .dropdown:hover .dropdown1{
+    display: block;
+    border: 1px solid blue;
+}
+.dropdown1 ul li{
+    display: flex;
+    flex-wrap: wrap;
+}
+.dropdown1 ul li:hover{
+    background: #ffffffca;
+}
+.dropdown1 ul li a{
+    width: 100%;
+    color: #000000;
+}
+
+.dropdown1 ul li a:hover{
+    color: #000000;
+    background: rgba(184, 184, 184,0.7);
+}

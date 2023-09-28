@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Noto+Sans+TC:wght@900&family=Nunito+Sans:opsz,wght@6..12,200&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+}
+
+header {
+    background: linear-gradient(to bottom, #688a0b 0%, #8d9962 100%);
+}
+
+.nav-bar1 {
+    border-bottom: 1px solid #8da54d;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar1 .call-us {
+    border: none;
+    margin-left: 110px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+}
+
+.nav-bar1-right {
+    border: none;
+    display: flex;
+    margin-right: 110px;
+}
+
+.nav-bar1-right .language {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar1-right .language .lang-img {
+    display: flex;
+    width: 16px;
+    height: 11px;
+    border: none;
+    position: relative;
+    left: 20px;
+}
+
+.account select {
+    border: none;
+    display: inline;
+    background: transparent;
+    margin-left: 20px;
+    font-size: 12px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.account select:hover {
+    color: #000;
+}
+
+.language select {
+    border: none;
+    display: inline;
+    background: transparent;
+    margin-left: 20px;
+    font-size: 12px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.language select:hover {
+    color: #000;
+}
+
+.currency select {
+    border: none;
+    display: inline;
+    background: transparent;
+    margin-left: 20px;
+    font-size: 12px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.currency select:hover {
+    color: #000;
+}
+
+.nav-bar2 {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 14px;
+}
+
+.nav-bar2 .logo {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar2 .nav-list {
+    border: none;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar2 .nav-list ul li {
+    display: inline;
+    ;
+    margin-left: 15px;
+    border: none;
+}
+
+.nav-bar2 .nav-list ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-bar2 .nav-list ul li:hover {
+    background: #65860b;
+    border-radius: 5px;
+}
+
+.nav-bar2 .nav-search-cart {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.nav-bar2 .nav-search-cart .nav-search-icon {
+    font-size: 18px;
+}
+
+.nav-bar2 .nav-search-cart .nav-search-icon:hover {
+    color: #000000;
+}
+
+.nav-bar2 .nav-search-cart .nav-cart {
+    border: none;
+    width: 115px;
+    display: flex;
+    position: relative;
+    left: 20px;
+}
+
+.nav-bar2 .nav-search-cart .nav-cart:hover {
+    color: #000000;
+}
+
+.nav-bar2 .nav-search-cart .nav-cart .cart {
+    border: 2px solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.nav-bar2 .nav-search-cart .nav-cart p {
+    border: none;
+    display: flex;
+    align-items: center;
+    margin-left: 9px;
+}

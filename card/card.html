@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <script src="https://kit.fontawesome.com/d1b314cfb2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Noto+Sans+TC:wght@900&family=Nunito+Sans:opsz,wght@6..12,200&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        .container{
+            height: 100vh;
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgb(69,252,119);
+            background: linear-gradient(90deg, rgba(69,252,119,1) 0%, rgba(126,189,151,1) 100%);
+        }
+        .back-info{
+            height: 400px;
+            width: 250px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            background-color: #fff;
+        }
+        .icon{
+            color: rgb(69,252,119);
+            font-size: 25px;
+            height: 110px;
+            width: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-left: 25px;
+            margin-top: 215px;
+        }
+        .info{
+            color: rgb(69,252,119);
+            height: 110px;
+            width: 200px;
+            position: absolute;
+            margin-left: 70px;
+            bottom: 188px;
+        }
+        span{
+            display: block;
+        }
+        .mob, .eadd, .sadd{
+            font-size: 13px;
+        }
+        .profile-pic{
+            height: 200px;
+            width: 230px;
+            border: none;
+            border-radius: 10px;
+            position: absolute;
+            top: 75px;
+            background-color: rgb(97, 221, 146);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+        }
+        .circle{
+            height: 100px;
+            width: 100px;
+            border: none;
+            border-radius: 50%;
+            font-size: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff;
+            margin-top: 20px;
+        }
+        h3{
+            display: block;
+            color: #fff;
+            font-family: 'Mukta', sans-serif;
+            font-family: 'Noto Sans TC', sans-serif;
+            font-family: 'Nunito Sans', sans-serif;
+            font-size: 35px;
+        }
+        .profession{
+            color: #fff;
+            font-family: 'Mukta', sans-serif;
+            font-family: 'Noto Sans TC', sans-serif;
+            font-family: 'Nunito Sans', sans-serif;
+            position: relative;
+            bottom: 10px;
+        }
+        .social{
+            border: none;
+            height: 70px;
+            width: 230px;
+            background-color: rgb(97, 221, 146);
+            border-radius: 10px;
+            position: absolute;
+            top: 470px;
+            font-size: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-pic">
+            <div class="circle">
+                <i class="fa-regular fa-user"></i>
+            </div>
+            <h3>John Doe</h3>
+            <span class="profession">Mobile App Developer</span>
+        </div>
+        <div class="back-info">
+                <div class="info1">
+                    <div class="icon">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <i class="fa-solid fa-envelope"></i>
+                        <i class="fa-solid fa-earth-africa"></i>
+                    </div>
+                    <div class="info">
+                        <span class="num">5-555-666-777</span>
+                        <span class="mob">Mobile number</span>
+                    
+                        <span class="email">example@gmail.com</span>
+                        <span class="eadd">Email address</span>
+                    
+                        <span class="site">www.example.com</span>
+                        <span class="sadd">Website address</span>
+                    </div>
+                </div>
+            </div>
+        <div class="social">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
